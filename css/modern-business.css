@@ -1,0 +1,100 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 60px;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+.carousel-item {
+  height: 60vh;
+  min-height: 430px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+/* SOCIAL ICONS */
+
+.socialmedia a {
+	color: #fff;
+	font-size: 38px;
+	margin: 8px;
+	/* padding-top: 12px; */
+	align-items: center;
+
+}
+  .h1, h1{
+   font-size: 3rem;
+ } 
+
+ .wrapper.style1 {
+  background-color: #EEE;
+  color: #777;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  border: 0px solid rgba(0, 0, 0, 0.125); 
+  border-radius: 0.25rem;
+}
+
+
+
+
+
+
+.service-item {
+  margin-bottom: 50px;
+}
+.service-item {
+  background: #F6F7FE;
+  text-align: center;
+  padding: 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 20px 1px rgba(0,0,0,.1);
+  margin-bottom: 30px;
+}
+.service-icon {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.service-icon i {
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  background: #00ACEC;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.principal-icon i {
+height: 90px;
+  width: 90px;
+  line-height: 70px;
+  color: #00ACEC;
+  border-radius: 50%;
+  font-size: 290px;
+  padding-top: 140px;
+}
+
+
+ 
