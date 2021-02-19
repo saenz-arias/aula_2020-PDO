@@ -30,9 +30,21 @@
    <script src="https://kit.fontawesome.com/28a54723f8.js" crossorigin="anonymous"></script> 
    <!--GOOGLE FONTS -->
    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+
+
+    <!-- ICONO Whatsapp -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Prueba WhatsApp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+
+  <!-- ICONO Whatsapp -->
+  <a href="https://api.whatsapp.com/send?phone=593996937904&text=Hello!%20I%20need%20information%20about%20Spanish%20lessons,%20my%20name%20is" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+
+
   <!-- Navigation -->
     <nav class="navbar fixed-top navbar-dark navbar-expand-lg" style="background-color: #00ACEC;">
     <div class="container">
@@ -103,8 +115,7 @@
   </header>
 
   <!-- Page Content -->
-  <div class="container"><br><br>
-
+  <div class="container" id="aviso"><br><br>
 
     <h1 class="my-4 text-center">Learn Spanish in Guayaquil Ecuador</h1><br>
 
@@ -125,7 +136,7 @@
       </div>
     </div><br><br>
      
-    <div class="row">
+    <div class="row" id="aviso">
       <div class="col-sm-4" style="border-radius: 20px">
          <div class="service-item">
          <div class="service-icon">
@@ -225,9 +236,10 @@
   </div><br>
 
   <!-- P R E C I O S -->
-  <div class="container" id="pricing">
-    <h1 class="mt-4 mb-3">PRICING
-     <small></small>
+  <div class="container text-center" id="pricing">
+    <h1 class="mt-4 mb-3">PRICING<br>
+     <small>$8/hour - group</small><br>
+     <small>$9/hour - tutorial</small><br><br>
    </h1>
     <ol class="breadcrumb">
      <!-- <li class="breadcrumb-item">
@@ -244,7 +256,7 @@
      <img src="img/sem1.jpeg" class="card-img-top" alt="class">
        <div class="card-body">
           <h4 class="card-header text-center">2 hours/day (4 weeks)</h4><br>
-       <div class="display-4 text-center">$280</div>
+       <div class="display-4 text-center">$320</div>
          </div>   
     <li class="list-group-item">
        <a href="#" class="btn btn-lg btn-block" style="color: white; background-color: #00ACEC;">40 hours</a>
@@ -258,7 +270,7 @@
      <img src="img/sem3.jpeg" class="card-img-top" alt="class">
      <div class="card-body">
        <h4 class="card-header text-center">3 hours/day (4 weeks)</h4><br>
-       <div class="display-4 text-center">$420</div>
+       <div class="display-4 text-center">$480</div>
          </div>
     <li class="list-group-item">
        <a href="#" class="btn btn-lg btn-block" style="color: white; background-color: #00ACEC;">60 hours</a>
@@ -271,7 +283,7 @@
      <img src="img/sem2.jpeg" class="card-img-top" alt="class">
      <div class="card-body">
        <h4 class="card-header text-center">4 hours/day (4 weeks)</h4><br>
-       <div class="display-4 text-center">$560</div>
+       <div class="display-4 text-center">$640</div>
          </div>
     <li class="list-group-item">
        <a href="#" class="btn btn-lg btn-block" style="color: white; background-color: #00ACEC;">80 hours</a>
@@ -297,7 +309,7 @@
        <div class="card h-100 text-center">
          <h3 class="card-header">Beginer (A1)</h3>
          <div class="card-body">
-           <div class="display-4">$630</div>
+           <div class="display-4">$720</div>
            <div class="font-italic"></div><hr>
            <a href="contact.html" class="btn btn-lg btn-block" style="color: white; background-color: #00ACEC;">90 hours</a>
          </div>
@@ -311,7 +323,7 @@
        <div class="card h-100 text-center">
          <h3 class="card-header">Basic (A2)</h3>
          <div class="card-body">
-           <div class="display-4">$630</div>
+           <div class="display-4">$720</div>
            <div class="font-italic"></div><hr>
            <a href="contact.html" class="btn btn-lg btn-block" style="color: white; background-color: #00ACEC;">90 hours</a>
          </div>
@@ -325,7 +337,7 @@
        <div class="card h-100 text-center">
          <h3 class="card-header">Intermediate (B1)</h3>
          <div class="card-body">
-           <div class="display-4">$1190</div>
+           <div class="display-4">$1360</div>
            <div class="font-italic"></div><hr>
            <a href="contact.html" class="btn btn-lg btn-block" style="color: white; background-color: #00ACEC;">170 hours</a>
          </div>
@@ -339,7 +351,7 @@
        <div class="card h-100 text-center">
          <h3 class="card-header">Intermediate - high (B2)</h3>
          <div class="card-body">
-           <div class="display-4">$1260</div>
+           <div class="display-4">$1440</div>
            <div class="font-italic"></div><hr>
            <a href="contact.html" class="btn btn-lg btn-block" style="color: white; background-color: #00ACEC;">180 hours</a>
          </div>
@@ -353,7 +365,7 @@
        <div class="card h-100 text-center">
          <h3 class="card-header">Advanced (C1)</h3>
          <div class="card-body">
-           <div class="display-4">$1330</div>
+           <div class="display-4">$1520</div>
            <div class="font-italic"></div><hr>
            <a href="contact.html" class="btn btn-lg btn-block" style="color: white; background-color: #00ACEC;">190 hours</a>
          </div>
@@ -367,7 +379,7 @@
        <div class="card h-100 text-center">
          <h3 class="card-header">Proficent (C2)</h3>
          <div class="card-body">
-           <div class="display-4">$1750</div>
+           <div class="display-4">$2000</div>
            <div class="font-italic"></div><hr>
            <a href="contact.html" class="btn btn-lg btn-block" style="color: white; background-color: #00ACEC;">250 hours</a>
          </div>
@@ -429,6 +441,7 @@
     </div><br>
     <br>
   </div>
+
   <!-- C O N T A C T O S -->
     <!-- Footer -->
  <footer class="py-5 bg-dark text-center">
@@ -440,7 +453,8 @@
     <a href="https://www.facebook.com/aulaespanolgye/" class="fab fa-facebook" target="blank"></a>
     <a href="https://www.instagram.com/aula_gye/" class="fab fa-instagram" target="blank"></a>
     <a href="https://www.linkedin.com/in/aula-espa%C3%B1ol-030ba2173/" class="fab fa-linkedin" target="blank"></a>
-    <a href="https://api.whatsapp.com/send?phone=593996937904&text=Hello!%20I%20need%20information%20about%20Spanish%20lessons,%20my%20name%20is" class="fab fa-whatsapp" target="blank"></a>
+    <!-- <a href="https://api.whatsapp.com/send?phone=593996937904&text=Hello!%20I%20need%20information%20about%20Spanish%20lessons,%20my%20name%20is" class="fab fa-whatsapp" target="blank"></a> -->
+    <a href="https://web.telegram.org/#/im" class="fab fa-telegram" target="blank"></a>
   </div>
 </div>
 <div class="form col-md-6 mb-4"><br><br>
@@ -488,9 +502,98 @@
 </footer>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--M O D A L-->
+<div class="portfolio-modal modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">S E O</h2>
+                                    <p class="item-intro text-muted">Search Engine Optimization, Optimizacion en motores de búsqueda (Google)</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/seo.png" alt="" />
+                                    <p class="text-justify">Esto consiste en un conjunto de adecuaciones tanto a nivel técnico como a nivel de contenidos en el sitio web con la finalidad de que este sea fácilmente encontrado por sus potenciales clientes. Para esto es importante determinar lo siguiente: <br>
+                                        -Palabras con que esta siendo buscado el producto o servicio que su negocio ofrece.<br>
+                                        -Palabras clave asociadas al tipo de producto o servicio ofrecido para utilizarlas en el contenido, sabiendo administrarlas y ordenarlas con criterio y asi evitar penalizaciones por parte de los motores de búsqueda.<br>
+                                        -Uso correcto de las imágenes asociadas al producto/servicio ofrecido con el grupo objetivo y optimización de las mismas.<br>
+                                        </p>
+                                        <h6>ACCIONES DE SEO AVANZADO</h6>
+                                        <p class="text-justify">
+                                            Existen una variedad de recursos tecnicos que se deben aprovechar para asegurar un posicionamiento solido y sostenible en el tiempo, considerando
+                                            que este es literalmente una "puja" que se activa al momento en que un usuario realiza determinada busqueda desde
+                                            cualquier dispositivo, hora y lugar; Estos son los siguientes:<br><br>
+                                            <ul class="list-group text-lg-left">
+                                                <li class="list-group-item">Optimizar velocidad de carga del sitio web, desechando código en desuso.</li>
+                                                <li class="list-group-item">Mejoras en la experiencia de usuario.</li>
+                                                <li class="list-group-item">Utilización de herramientas de Google Ej. Caracteres, mapas, consola de busqueda.</li>
+                                                <li class="list-group-item">Certificado de seguridad SSL.</li>
+                                                <li class="list-group-item">Linkbuilding.</li>
+                                                <li class="list-group-item">URLs amigables <strong>www.miweb.com/mi/producto/esta/aqui</strong>.</li>
+                                            </ul>
+                                                      
+                                        </p>
+                                    <hr><br>
+                                    <!-- <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Threads</li>
+                                        <li>Category: Illustration</li>
+                                    </ul> -->
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--M O D A L-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="aviso-covid.js"></script>
 
 </body>
 
