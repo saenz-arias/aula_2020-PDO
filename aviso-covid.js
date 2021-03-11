@@ -1,35 +1,35 @@
 
-window.addEventListener('scroll', () => {
-    
-    // const anuncio = document.querySelector('#modal');
-    const ubicacion = aviso.getBoundingClientRect();
+// Get the modal
+var modal = document.getElementById("myModal");
 
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
 
-    // if(ubicacion.top < 784) {
-    if(ubicacion.top < 74) {
-        avisoHTML();
-        // document.querySelector('.aviso');
-        //  return anuncio;
-    } else {
-        console.log('Aún no, da mas scroll');
-    }
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+window.addEventListener('load', () => {
+    modal.style.display = "block";
 })
 
-function avisoHTML(){
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
 
-    const anuncio = document.querySelector('#modal');
-
-    if( anuncio.classList.contains('activo') ) {
-        anuncio.classList.remove('activo');
-        this.classList.remove('activo');
-		this.textContent = 'Calcular envio';
-		
-    } else {
-        anuncio.classList.add('activo');
-        this.classList.add('activo');
-        this.textContent = 'X';
-    }
-     }
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 
 
-     
+
+
+
+
+
+
+
+

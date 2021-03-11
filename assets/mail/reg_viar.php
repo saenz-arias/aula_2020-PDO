@@ -44,15 +44,13 @@
   
     $insert->execute();
     
-    echo "New record created successfully";
+    // echo "New record created successfully";
+    
   } catch(PDOException $e) {
     echo $sql . "<br>" . $e->getMessage();
   }
 
+  header ("Location:https://www.aula-ec.com/");
   $conn = null;
-
-
-
-
 
 ?>

@@ -50,7 +50,7 @@
     <div class="container">
       <div class="button" action="español.html">
       <img src="img/aula_logo.png" href="#" width="48" height="48" alt="Aula_logo"/>
-      <a href="español.html" type="button" style="margin-left:24px; padding:6px; color:#00ACEC; background-color:white; border-radius: 4px; border: white;">Esp</a>
+      <a href="español.html" type="button" style="margin-left:24px; padding:6px; color:#00ACEC; background-color:white; border-radius: 4px; border: white;">ES</a>
     </div>
   <button class="navbar-toggler navbar-toggler-right text-white" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -82,24 +82,24 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url(img/portada.jpeg)">
+        <div class="carousel-item active img-fluid" style="background-image: url(img/portada.jpg)">
           <div class="carousel-caption d-none d-md-block">
-           <!-- <h3>First Slide</h3>
-            <p>This is a description for the first slide.</p>-->
+           <h2 class="slide-description">Spanish classes in Guayaquil</h2>
+            <p class="slide-p">Tutorial and group classes.</p>
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url(img/portada3.jpeg)">
+        <div class="carousel-item img-fluid" style="background-image: url(img/portada2.jpg)">
           <div class="carousel-caption d-none d-md-block">
-          <!--  <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>-->
+           <h2 class="slide-description">With qualified teachers</h2>
+            <p class="slide-p">All of them from the University language school.</p>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url(img/portada2.jpeg)">
+        <div class="carousel-item img-fluid" style="background-image: url(img/portada3.jpg)">
           <div class="carousel-caption d-none d-md-block">
-          <!-- <h3>Third Slide</h3>
-            <p>This is a description for the third slide.</p>-->
+          <h2 class="slide-description">European framework reference</h2>
+            <p class="slide-p">A1 - A2 - B1 - B2 - C1 - C2</p>
           </div>
         </div>
       </div>
@@ -113,6 +113,49 @@
       </a>
     </div>
   </header>
+
+
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal" style="justify-items: center;">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+      <div class="modal-text">
+      
+      <div class="modal-titulo">
+      <h1 id="h1-modal">IMPORTANT</h1>
+      <p id="p-modal">At the moment our teachers are available for Spanish lessons only vía online through Meets platform, due to health and safety reasons.</p>
+    </div>
+    <div class="row ml-7" id="row-modal">
+      <div class="online-section col-md-12" style="background-color:#00ACEC ; color: white;" id="contenido-modal">
+        <h1 id="h1-content">SPANISH LESSONS <strong>VIA STREAMING</strong></h1>   
+        <ul id="lista">
+          <li>Qualified teachers</li>
+          <li>Hundreds of teaching resources</li>
+          <li>Speak Spanish from the first class</li>
+          <li>Tutorial and group classes</li>
+          
+        </ul>
+        <i class="fas fa-video" id="camara"></i>
+        </div>
+    </div>
+
+<p id="p-modal">For more information about courses and payment methods write us an email to <strong>info@aula-ec.com</strong> or directly to Whatsapp <strong>+(593) 996937904</strong> </p>    
+
+      </div>
+
+      <div class="boton" id="boton" style="align-items: center;">
+        <a href="online.html" type="button" class="btn btn-primary col-md-8" id="boton-cta">LEARN MORE</a>
+        </div>  
+
+  </div>
+
+</div>
+<!-- ANUNCIO -->
 
   <!-- Page Content -->
   <div class="container" id="aviso"><br><br>
@@ -191,10 +234,10 @@
     </div>
     <div class="col-lg-6">
       <h2>Who are we?</h2>
-      <p>We are a multidisciplinary team oriented to the public service, specifically in the Spanish language teaching area, working in Guayaquil - Ecuador since 2008.</p>
-      <p>We offer a complete program based on the common European framework of reference for languages, guided by professionals in language teaching and in an suitable environment to learning. We also offer weekly teaching programs that adapt to the needs, availability and goals of our students.</p>
-      <p>Our main objective is to give the best experience to our students and users, starting from the first contact.  </p>
-      <h5>Wellcome to Guayaquil !</h5>
+      <p class="p-content">We are a multidisciplinary team oriented to the public service, specifically in the Spanish language teaching area, working in Guayaquil - Ecuador since 2008.</p>
+      <p class="p-content">We offer a complete program based on the common European framework of reference for languages, guided by professionals in language teaching and in an suitable environment to learning. We also offer weekly teaching programs that adapt to the needs, availability and goals of our students.</p>
+      <p class="p-content">Our main goal is to give the best experience to our students and users, starting from the first contact.  </p>
+      <h5>Welcome to Guayaquil !</h5>
     </div>
   </div>
   <hr><br>
@@ -215,7 +258,7 @@
           <li>Social area</li>
           <li>Wi-Fi</li>
         </ul>
-        <p>Spanish courses take place in the classrooms of the Centro Aleman de Guayaquil, with the comfort and security offered for learning. The place is located in the new business and commerce center of Guayaquil, where you can easily arrive in any type of urban transport including bicycle.</p>
+        <p class="p-content">Spanish courses take place in the classrooms of the Centro Aleman de Guayaquil, with the comfort and security offered for learning. The place is located in the new business and commerce center of Guayaquil, where you can easily arrive in any type of urban transport including bicycle.</p>
       </div>
       <div class="col-lg-6">
         <img class="img-fluid rounded" src="img/centro.jpeg" alt="Centro Aleman">
@@ -447,7 +490,7 @@
  <footer class="py-5 bg-dark text-center">
   <div class="container">
 <div class="row">
-<div class="form col-md-6 mb-4" style="padding-top: 70px;">
+<div class="form col-md-6 mb-4" style="padding-top: 70px;" id="logo-footer">
   <img src="img/aula_logo.png" href="index.html" style="margin-left: 40px;"  width="200" height="200" alt="Aula_logo"/>
   <div class="col-md-12 socialmedia">
     <a href="https://www.facebook.com/aulaespanolgye/" class="fab fa-facebook" target="blank"></a>
@@ -457,32 +500,37 @@
     <a href="https://web.telegram.org/#/im" class="fab fa-telegram" target="blank"></a>
   </div>
 </div>
-<div class="form col-md-6 mb-4"><br><br>
-    <form class="needs-validation" method="POST" action="reg_viar.php" novalidate>
-      <div class="col">
-        <div class="col-md-12 mb-4">
-         <input type="text" class="form-control" id="validationTooltip01" value="" name="name" placeholder="Name" required> 
-        </div>
-        <div class="col-md-12 mb-4">
-          <input type="text" class="form-control" id="validationTooltip02" value="" name="email" placeholder="Email" required>
-        </div>
-        <div class="col-md-12 mb-4">
-          <!-- <select class="custom-select" id="validationTooltip04" name="requerimiento" required>
-            <option selected disabled value="">Requerimiento</option>
-            <option value="SEO/SEM">SEO / SEM</option>
-            <option value="WEB">WEB</option>
-          </select> -->
-           <div>
-           <div class="controls">
-            <label> </label>
-            <textarea rows="5" cols="100" class="form-control" name="message" placeholder="Message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-           </div> 
-        </div><br>
-          <button class="btn" style="color: black; background-color: white;" type="submit">Send</button><br><br>
+
+<br>
+<!-- <div class="row"> -->
+  <div class="col-lg-6 mb-4" id="casilla-mensaje">
+    <!-- <h3>Send us a Message</h3> -->
+    <form name="sentMessage" id="contactForm" novalidate>
+      <div class="control-group form-group">
+        <div class="controls">
+          <!-- <label>Full Name:</label> -->
+          <input type="text" class="form-control" id="name" placeholder="Name"  required data-validation-required-message="Please enter your name.">
+          <p class="help-block"></p>
         </div>
       </div>
-    </form>    
- </div>
+      <div class="control-group form-group">
+        <div class="controls">
+          <!-- <label>Email Address:</label> -->
+          <input type="email" class="form-control" id="email" placeholder="Email" required data-validation-required-message="Please enter your email address.">
+        </div>
+      </div>
+      <div class="control-group form-group">
+        <div class="controls">
+          <!-- <label>Message:</label> -->
+          <textarea rows="5" cols="100" class="form-control" id="message" placeholder="Message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+        </div>
+      </div>
+      <div id="success"></div>
+     
+      <button type="submit" class="btn btn-primary" style="color: black; background-color: white; border: none;" id="sendMessageButton">Send Message</button>
+    </form>
+  </div>
+
 </div>
 
 <div class="col-md-12">
@@ -501,99 +549,13 @@
 </div>
 </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--M O D A L-->
-<div class="portfolio-modal modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">S E O</h2>
-                                    <p class="item-intro text-muted">Search Engine Optimization, Optimizacion en motores de búsqueda (Google)</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/seo.png" alt="" />
-                                    <p class="text-justify">Esto consiste en un conjunto de adecuaciones tanto a nivel técnico como a nivel de contenidos en el sitio web con la finalidad de que este sea fácilmente encontrado por sus potenciales clientes. Para esto es importante determinar lo siguiente: <br>
-                                        -Palabras con que esta siendo buscado el producto o servicio que su negocio ofrece.<br>
-                                        -Palabras clave asociadas al tipo de producto o servicio ofrecido para utilizarlas en el contenido, sabiendo administrarlas y ordenarlas con criterio y asi evitar penalizaciones por parte de los motores de búsqueda.<br>
-                                        -Uso correcto de las imágenes asociadas al producto/servicio ofrecido con el grupo objetivo y optimización de las mismas.<br>
-                                        </p>
-                                        <h6>ACCIONES DE SEO AVANZADO</h6>
-                                        <p class="text-justify">
-                                            Existen una variedad de recursos tecnicos que se deben aprovechar para asegurar un posicionamiento solido y sostenible en el tiempo, considerando
-                                            que este es literalmente una "puja" que se activa al momento en que un usuario realiza determinada busqueda desde
-                                            cualquier dispositivo, hora y lugar; Estos son los siguientes:<br><br>
-                                            <ul class="list-group text-lg-left">
-                                                <li class="list-group-item">Optimizar velocidad de carga del sitio web, desechando código en desuso.</li>
-                                                <li class="list-group-item">Mejoras en la experiencia de usuario.</li>
-                                                <li class="list-group-item">Utilización de herramientas de Google Ej. Caracteres, mapas, consola de busqueda.</li>
-                                                <li class="list-group-item">Certificado de seguridad SSL.</li>
-                                                <li class="list-group-item">Linkbuilding.</li>
-                                                <li class="list-group-item">URLs amigables <strong>www.miweb.com/mi/producto/esta/aqui</strong>.</li>
-                                            </ul>
-                                                      
-                                        </p>
-                                    <hr><br>
-                                    <!-- <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Threads</li>
-                                        <li>Category: Illustration</li>
-                                    </ul> -->
-                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                        <i class="fas fa-times mr-1"></i>
-                                        Cerrar
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-<!--M O D A L-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
   <script src="aviso-covid.js"></script>
+  <script src="assets/mail/jqBootstrapValidation.js"></script>
+  <script src="assets/mail/contact_me.js"></script>
 
 </body>
 

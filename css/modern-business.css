@@ -55,11 +55,15 @@ body {
   border: 0px solid rgba(0, 0, 0, 0.125); 
   border-radius: 0.25rem;
 }
-
-
-
-
-
+.card-text{
+  text-align: justify;
+}
+.p-shedule{
+  text-align: justify;
+}
+.p-content{
+text-align: justify;
+}
 
 .service-item {
   margin-bottom: 50px;
@@ -118,34 +122,531 @@ height: 90px;
 }
 
 
-
-
-
-.anuncio {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  padding: .9rem 3rem;
-  background-color: var(--claro);
-  color: #FBFBFC !important;
-  background-color: #4f9be2;
-  border: none;
-  -webkit-box-shadow: 0px 6px 32px -10px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 6px 32px -10px rgba(0,0,0,0.75);
-  box-shadow: 0px 6px 32px -10px rgba(0,0,0,0.75);
-  color: var(--obscuro);
-  font-weight: bold;
-  z-index: 102;
-  border-radius: 55px;
-}
-.anuncio.activo {
-  background-color: red;
-  color: var(--claro);
-  z-index: 101;
-  border-radius: 75px;
-  font-weight: bold;
-  border: none;
-  
+@media (max-width: 1440px){
+  #logo-footer{
+    margin: auto;
+ }
+ #casilla-mensaje{
+   margin-top: 80px;
+   padding-right: 50px;
+ }
 }
 
+
+@media (max-width: 1280px){
+  #logo-footer{
+    margin: auto;
+ }
+ #casilla-mensaje{
+   margin-top: 70px;
+   padding-right: 40px;
+ }
+}
+
+@media (max-width: 1024px){
+  #logo-footer{
+     margin: auto;
+  }
+  #casilla-mensaje{
+    margin-top: 40px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 768px){
+  #logo-footer{
+    margin: auto;
+ }
+ #casilla-mensaje{
+   margin-top: 40px;
+   margin-left: 45px;
+ }
+}
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#h1-modal{
+  text-align: center;
+  font-size: 100px;
+}
+#p-modal{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#contenido-modal{
+  padding: 30px;
+  padding-left: 70px;
+}
+#zoom{
+  margin-top: 45px;
+  margin-left: 25px;
+}
+#camara{
+  color: white;
+  font-size: 100px;
+  padding: 70px 90px;
+  margin-left: -90px;
+  margin-top: 10px;
+}
+#boton-cta{
+  color: white;
+  background-color: #00ACEC;
+  border: none;
+  border-radius: 14px;
+  font-size: 45px;
+}
+#boton{
+  margin: 20px 0px;
+  margin-left: 250px;
+}
+
+
+@media (max-width: 1440px) { 
+  #h1-modal{
+    text-align: center;
+    font-size: 90px;
+  }
+  #h1-content{
+    text-align: center;
+    font-size: 70px;
+  }
+  #p-modal{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  #lista{
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 250px;
+    justify-content: center;
+  }
+  #camara{
+    /* font-size: 140px; */
+    padding-block: 20px;
+    margin-left: 330px;
+    text-align: center;
+  }
+ }
+@media (max-width: 1280px) { 
+  #h1-modal{
+    text-align: center;
+    font-size: 90px;
+  }
+  #h1-content{
+    margin-left: -45px;
+    font-size: 80px;
+  }
+  #p-modal{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  #lista{
+    font-size: 34px;
+    margin-top: 40px;
+    margin-left: 190px;
+    justify-content: center;
+  }
+  #camara{
+    font-size: 130px;
+    padding-block: 20px;
+    margin-left: 260px;
+    text-align: center;
+  }
+ }
+ @media (max-width: 1024px) {
+  #h1-content{
+    margin-left: -45px;
+    font-size: 70px;
+  }
+  #lista{
+    font-size: 34px;
+    margin-top: 40px;
+    margin-left: 120px;
+    justify-content: center;
+  }
+  #camara{
+    font-size: 130px;
+    padding-block: 20px;
+    margin-left: 170px;
+    text-align: center;
+  }
+  #boton-cta{
+    color: white;
+    background-color: #00ACEC;
+    border: none;
+    border-radius: 14px;
+    margin-left: -45px;
+  }
+ }
+@media (max-width: 992px) { 
+  #h1-modal{
+    text-align: center;
+    font-size: 90px;
+  }
+  #h1-content{
+    text-align: center;
+    font-size: 70px;
+  }
+  #p-modal{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  #lista{
+    font-size: 27px;
+    margin-top: 40px;
+    margin-left: 120px;
+    justify-content: center;
+  }
+  #camara{
+    font-size: 100px;
+    padding-block: 20px;
+    margin-left: 170px;
+    text-align: center;
+  }
+ }
+
+@media (max-width: 768px) { 
+  #h1-modal{
+    text-align: center;
+    font-size: 90px;
+  }
+  #h1-content{
+    font-size: 60px;
+    margin-left: -30px;
+  }
+  #p-modal{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  #lista{
+    font-size: 27px;
+    margin-top: 40px;
+    margin-left: 35px;
+    justify-content: center;
+  }
+  #camara{
+    font-size: 110px;
+    padding-block: 20px;
+    margin-left: 75px;
+  }
+  #boton{
+    margin: 20px 0px;
+    margin-left: 150px;
+  }
+  #boton-cta{
+    color: white;
+    background-color: #00ACEC;
+    border: none;
+    border-radius: 14px;
+    margin-left: -5px;
+  }
+ }
+
+ @media (max-width: 576px) { 
+  #h1-modal{
+    text-align: center;
+    font-size: 60px;
+  }
+  #h1-content{
+    font-size: 50px;
+    margin-left: -30px;
+  }
+  #p-modal{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  #lista{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: -15px;
+    justify-content: center;
+  }
+  #camara{
+    font-size: 100px;
+    padding-block: 20px;
+    margin-left: -10px;
+  }
+  .slide-description{
+    font-size: 55px;
+    background-color: #00ACEC;
+  }
+  .slide-p{
+    font-size: 15px;
+    background-color: #00ACEC;
+  }
+  }
+
+  @media (max-width: 414px) { 
+    #h1-modal{
+      font-size: 50px;
+    }
+    #h1-content{
+      font-size: 40px;
+      margin-left: -50px;
+    }
+    #p-modal{
+      font-size: 17px;
+      margin-top: 20px;
+    }
+    #lista{
+      font-size: 21px;
+      margin-top: 40px;
+      margin-left: -35px;
+      justify-content: center;
+    }
+    #camara{
+      font-size: 70px;
+      padding-block: 20px;
+      margin-left: -40px;
+    }
+    #boton{
+      margin: 20px 0px;
+      margin-left: 0px;
+    }
+    #boton-cta{
+      font-size: 27px;
+      margin: auto;
+    }
+  }
+  @media (max-width: 375px) {
+    #camara{
+      margin-left: -55px;
+    }
+  }
+
+
+/* SLIDE SECCCION */
+  .slide-description{
+    font-size: 65px;
+    background-color: #00ACEC;
+  }
+  .slide-p{
+    font-size: 25px;
+    background-color: #00ACEC;
+  }
+
+  @media (max-width: 768px){
+    .slide-description{
+      /* font-size: 45px; */
+      background-color: #00ACEC;
+    }
+    .slide-p{
+      font-size: 20px;
+      background-color: #00ACEC;
+    }
+    .carousel-caption.d-none.d-md-block {
+      display: block!important;
+  }
+  }
+
+  @media (max-width: 576px){
+    .slide-description{
+      font-size: 35px;
+      background-color: #00ACEC;
+    }
+    .slide-p{
+      font-size: 15px;
+      background-color: #00ACEC;
+    }
+    .carousel-caption.d-none.d-md-block {
+      display: block!important;
+  }
+  }
+  @media (max-width: 414px){
+    .slide-description{
+      /* font-size: 30px; */
+      background-color: #00ACEC;
+    }
+    .slide-p{
+      font-size: 20px;
+      background-color: #00ACEC;
+    }
+    .carousel-caption.d-none.d-md-block {
+      display: block!important;
+  }
+  }
+
+
+   /* SECCION PLATAFORMA */
+
+   #plataforma {
+    background-color: rgba(0,0,0,.03);
+ }
+ #p-plataforma{
+   padding-top: 50px;
+   padding-left: 90px;
+ }
+ #plataforma .col-md-6 #laptop{
+   margin-top: 30px;
+   margin-left: 100px;
+ }
+ #plataforma .col-md-6 #tablet{
+   margin-left: 100px;
+ }
+
+ @media (max-width: 1200px) {
+
+  #plataforma {
+   background-color: rgba(0,0,0,.03);
+}
+#p-plataforma{
+  padding: 40px;
+}
+#plataforma .col-md-6 #laptop{
+ margin-top: 70px;
+ width: 900px;
+ height: 120px;
+}
+#plataforma .col-md-6 #tablet{
+  margin-left: 100px;
+}
+ }
+ @media (max-width: 992px){
+   #plataforma {
+     background-color: rgba(0,0,0,.03);
+     height: 100%;
+  }
+  #p-plataforma{
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+  #plataforma .col-md-6 #laptop{
+   height: 130px;
+  }
+  #plataforma .col-md-6 #tablet{
+    height: 150px;
+    max-width: 60%;
+  }
+ }
+ @media (max-width: 768px){
+   #plataforma {
+     background-color: rgba(0,0,0,.03);
+     height: 100%;
+  }
+  #p-plataforma{
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+  #plataforma .col-md-6 #laptop{
+   margin-top: 60px;
+   height: 170px;
+   max-width: 90%;
+   margin-left: 20px;
+  }
+  #plataforma .col-md-6 #tablet{
+   height: 150px;
+   max-width: 90%;
+   margin-left: 20px;
+  }
+ }
+ @media (max-width: 576px){
+   #plataforma {
+     background-color: rgba(0,0,0,.03);
+     height: 100%;
+  }
+  #p-plataforma{
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+  #plataforma .col-md-6 #laptop{
+    height: 170px;
+    width: 370px;
+    margin-left: 60px;
+    margin-top: -20px;
+  }
+  #plataforma .col-md-6 #tablet{
+    height: 170px;
+    width: 380px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+  }
+ }
+ @media (max-width: 414px){
+   #plataforma {
+     background-color: rgba(0,0,0,.03);
+     height: 100%;
+  }
+  #p-plataforma{
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+  #plataforma .col-md-6 #laptop{
+   height: 170px;
+   max-width: 70%;
+   margin-left: 55px;
+  }
+  #plataforma .col-md-6 #tablet{
+    height: 140px;
+    max-width: 70%;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+ }
+ @media (max-width: 376px){
+   #plataforma {
+     background-color: rgba(0,0,0,.03);
+     height: 100%;
+  }
+  #p-plataforma{
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+  #plataforma .col-md-6 #laptop{
+   height: 170px;
+   max-width: 90%;
+   margin-left: 15px;
+  }
+  #plataforma .col-md-6 #tablet{
+   height: 110px;
+   max-width: 80%;
+   margin-left: 28px;
+   margin-bottom: 60px;
+  }
+ }
  
+
+
