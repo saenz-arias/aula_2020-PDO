@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 body {
+  font-size: 18px;
   padding-top: 60px;
   font-family: 'Oswald', sans-serif !important;
 }
@@ -342,7 +343,7 @@ height: 90px;
   #camara{
     font-size: 100px;
     padding-block: 20px;
-    margin-left: 170px;
+    margin-left: 100px;
     text-align: center;
   }
  }
